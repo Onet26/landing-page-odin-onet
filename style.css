@@ -40,6 +40,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding-bottom: 70px;
 }
 
 .hero-text {
@@ -131,4 +132,90 @@ a {
     padding-left: 250px;
     padding-right: 250px;
     padding-bottom: 80px;
+}
+
+.quote-section {
+    display: flex;
+    background: #E5E7EB;
+    flex-direction: column;
+    padding: 80px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.name-quote {
+    text-align: right;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.registration {
+    display: flex;
+    background: #F9FAF8;
+    flex-direction: column;
+    padding: 80px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.reminder {
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #3882F6;
+}
+
+.reg-call {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.call {
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.call-info {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.reg-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+}
+
+.sign-up {
+    background: #3882F6;
+    color: white;
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
 }
